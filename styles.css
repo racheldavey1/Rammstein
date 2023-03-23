@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(90, 88, 88);
+    padding: 20px;
+    
+}
+
+h1, h2, p {
+    text-align: center;
+    color: rgb(185, 183, 183);
+}
+
+.menu {
+    width: 80%;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    background-color: rgb(43, 44, 44);
+}
+
+
+hr {
+    height: 3px;
+    background-color: black;
+    border-color: black;
+}
+/* article class - makes it so what inside shows as inline */
+.song p {
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+/* alligened to left and right */
+.title {
+    text-align: left;
+    width: 75%;
+}
+
+.time {
+    text-align: right;
+    width: 25%;
+}
+
+.button1 {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    background-color: rgba(176, 176, 189, 0.89);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 32px;
+    font-size: 16px;
+
+}
+
+.SurveryText {
+    margin-bottom: 15px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  a:hover {
+    color: rgb(121, 114, 114);
+    text-decoration: none;
+   
+  }
+  
+  a:active {
+    color: rgb(207, 181, 181);
+    text-decoration: none;
+
+  }
+
